@@ -1,0 +1,142 @@
+/* ===========================
+         Common Css Start
+============================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1320px;
+    height: 72px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+/* ===========================
+         Common Css End
+============================ */
+/* ===========================
+         Menu Part Start
+============================ */  
+#main_menu{
+    height: 72px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 999;
+}
+.logo_col{
+    width: 20%;
+}
+.menu_col{
+    width: 60%;
+}
+.button_col{
+    width: 20%;
+}
+.menu_col ul{
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 72px;
+    display: flex;
+}
+.menu_col ul li{
+    float: left;
+}
+.menu_col ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0 25px;
+    color: #F6F0F0;
+    transition: all linear .3s;
+}
+.menu_col ul li a:hover{
+    color: #FF9600;
+}
+#main_menu .button_col a{
+    width: 200px;
+    height: 62px;
+    background-color: #FF9600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F6F0F0;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 62px;
+    float: right;
+    margin-top: 5px;  
+}
+/* ===========================
+         Menu Part End
+============================ */  
+/* ===========================
+         Banner Part Start
+============================ */
+#banner{
+    height: 750px;
+    background-image: url(../image/header-no-sep\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 240px 0 212px;
+    position: relative;
+}
+.banner_text h1{
+    width: 820px;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    margin: 0 auto 48px;
+}
+.banner_button{
+    width: fit-content;
+    margin: 0 auto;
+}
+.banner_button a{
+    padding: 20px 40px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.banner_button a:hover{
+    background-color: #FF9600;
+    color: #F6F0F0;
+}
+.banner_button a:first-child{
+    margin-right: 56px;
+}
+.banner_shape{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* ===========================
+         Banner Part End
+============================ */
